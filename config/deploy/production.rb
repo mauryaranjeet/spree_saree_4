@@ -20,9 +20,9 @@
 # role :app, %w{deploy@example.com}, my_property: :my_value
 # role :web, %w{user1@primary.com user2@additional.com}, other_property: :other_value
 # role :db,  %w{deploy@example.com}
-role :app, %w{askranjeetmaurya@35.185.51.15}
-role :web, %w{askranjeetmaurya@35.185.51.15}
-role :db,  %w{askranjeetmaurya@35.185.51.15}
+role :app, %w{askranjeetmaurya@35.185.88.90}
+role :web, %w{askranjeetmaurya@35.185.88.90}
+role :db,  %w{askranjeetmaurya@35.185.88.90}
 
 
 
@@ -35,7 +35,7 @@ role :db,  %w{askranjeetmaurya@35.185.51.15}
 # http://capistranorb.com/documentation/getting-started/configuration/
 # Feel free to add new variables to customise your setup.
 
-server '35.185.51.15', user: 'askranjeetmaurya', roles: %w{web app}, my_property: :my_value
+server '35.185.88.90', user: 'askranjeetmaurya', roles: %w{web app}, my_property: :my_value
 set :rails_env, 'production'
 set :deploy_env, 'production'
 set :deploy_to, '/home/askranjeetmaurya/sites'
